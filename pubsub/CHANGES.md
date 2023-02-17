@@ -1,5 +1,25 @@
 # Changes
 
+## [1.29.0](https://github.com/googleapis/google-cloud-go/compare/pubsub/v1.28.0...pubsub/v1.29.0) (2023-02-17)
+
+
+### Features
+
+* **pubsub:** Add REST client ([06a54a1](https://github.com/googleapis/google-cloud-go/commit/06a54a16a5866cce966547c51e203b9e09a25bc0))
+* **pubsub:** Add schema evolution methods and fields ([ee41485](https://github.com/googleapis/google-cloud-go/commit/ee41485860bcbbd09ce4e28ee6ddca81a5f17211))
+* **pubsub:** Add support for schema revisions ([#7295](https://github.com/googleapis/google-cloud-go/issues/7295)) ([369b16f](https://github.com/googleapis/google-cloud-go/commit/369b16f9525f9ac9a0811c66ce61eda9f6c566e4))
+
+
+### Bug Fixes
+
+* **pubsub:** Dont compare revision fields in schema config test ([#7317](https://github.com/googleapis/google-cloud-go/issues/7317)) ([e364f7a](https://github.com/googleapis/google-cloud-go/commit/e364f7abfe3ec8fc20db78abcdaeaaf27d19269c))
+* **pubsub:** Fix bug with AckWithResult with exactly once disabled ([#7319](https://github.com/googleapis/google-cloud-go/issues/7319)) ([c88fbdf](https://github.com/googleapis/google-cloud-go/commit/c88fbdf299205e8118b347430cf66540ffa68b27))
+
+
+### Documentation
+
+* **pubsub:** Mark revision_id in CommitSchemaRevisionRequest deprecated ([2fef56f](https://github.com/googleapis/google-cloud-go/commit/2fef56f75a63dc4ff6e0eea56c7b26d4831c8e27))
+
 ## [1.28.0](https://github.com/googleapis/google-cloud-go/compare/pubsub/v1.27.1...pubsub/v1.28.0) (2022-12-05)
 
 
