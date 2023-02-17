@@ -2,6 +2,14 @@
 
 
 
+## [1.47.0](https://github.com/googleapis/google-cloud-go/compare/bigquery/v1.46.0...bigquery/v1.47.0) (2023-02-17)
+
+
+### Features
+
+* **bigquery/storage:** Add default_value_expression to TableFieldSchema ([#7400](https://github.com/googleapis/google-cloud-go/issues/7400)) ([1244b3f](https://github.com/googleapis/google-cloud-go/commit/1244b3f63338ffe7af9051fd368b6b81ca63ff37))
+* **bigquery:** Add support for session in load jobs ([#7418](https://github.com/googleapis/google-cloud-go/issues/7418)) ([f9ff2ca](https://github.com/googleapis/google-cloud-go/commit/f9ff2ca3a01736b049873ff43005626e8c06e6b2))
+
 ## [1.46.0](https://github.com/googleapis/google-cloud-go/compare/bigquery/v1.45.0...bigquery/v1.46.0) (2023-02-06)
 
 
